@@ -1,0 +1,30 @@
+{
+  "best_classifier": "ExtraTrees",
+  "classifier_oof_accuracy": 0.6352,
+  "best_regressor": "ExtraTrees",
+  "regressor_oof_mae_seconds": 3.033,
+  "regressor_oof_r2": 0.6888,
+  "numeric_features": [
+    "o2_partial_pressure_kpa",
+    "gas_thermal_conductivity",
+    "o2_to_inert_ratio",
+    "initial_size_mm",
+    "droplet_d2_timescale_proxy",
+    "solid_thermally_thin_spread_proxy",
+    "radiative_quenching_number"
+  ],
+  "regressor_features": [
+    "o2_partial_pressure_kpa",
+    "gas_thermal_conductivity",
+    "o2_to_inert_ratio",
+    "initial_size_mm",
+    "droplet_d2_timescale_proxy",
+    "radiative_quenching_number",
+    "fuel_category",
+    "fuel_family"
+  ],
+  "categorical_features": [
+    "fuel_category",
+    "fuel_family"
+  ]
+}
